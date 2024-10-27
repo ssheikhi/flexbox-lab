@@ -67,6 +67,10 @@
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
   }
   
   nav button {
@@ -87,6 +91,8 @@
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
   }
   
   .card-footer * {
@@ -96,6 +102,8 @@
   #subnav {
     padding: 32px 72px 0;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
   }
   
   #subnav button {
@@ -104,11 +112,13 @@
     border: 1px solid black;
     background-color: white;
   }
+
   #trending{
     display: flex;
     align-items: center;
     gap: 10px;
   }
+
   #trending p {
     background-color: white;
     color: black;
